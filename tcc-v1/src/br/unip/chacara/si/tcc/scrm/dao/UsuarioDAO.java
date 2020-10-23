@@ -19,8 +19,8 @@ import br.unip.chacara.si.tcc.scrm.model.*;
  */
 public class UsuarioDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/TCC?useSSL=false";
-	private String jdbcUsername = "root";
-	private String jdbcPassword = "I&H31v@L";
+	private String jdbcUsername = "usuario";
+	private String jdbcPassword = "senha";
 
 	private static final String SELECT_LOGIN_MED = "select * from medico where crm = ? and senha = ?";
 	private static final String SELECT_LOGIN_FARM = "select * from farmaceutico where crf = ? and senha = ?";
