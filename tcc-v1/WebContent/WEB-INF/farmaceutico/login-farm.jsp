@@ -40,7 +40,7 @@
 					</fieldset>
 
 					<fieldset class="form-group">
-						<label>Senha</label> <input type="text"
+						<label>Senha</label> <input type="password"
 							value="<c:out value='${usuario.senha}' />" class="form-control"
 							name="password" required="required" maxlength="11">
 					</fieldset>

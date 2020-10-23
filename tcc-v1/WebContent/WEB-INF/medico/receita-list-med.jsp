@@ -34,7 +34,7 @@ if(especialidade == null){
 
 			<ul class="navbar-nav">
 				<li><a href="pesquisa-receita-med.jsp"
-					class="nav-link">Receitas Farmaceutico</a></li>
+					class="nav-link">Receitas Geradas</a></li>
 			</ul>
 		</nav>
 	</header>

@@ -44,7 +44,7 @@ if(especialidade == null){
 			class="form-control" name="crm" required="required" readonly>
 
 		<div class="container">
-			<h1 class="text-center">Receita finalizada Gerada com Sucesso!</h1>
+			<h1 class="text-center">Receita Gerada com Sucesso!</h1>
 
 			<h3 class="text-center">Redirecionando...</h3>
 		</div>

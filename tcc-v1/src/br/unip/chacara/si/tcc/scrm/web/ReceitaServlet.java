@@ -78,6 +78,7 @@ public class ReceitaServlet extends HttpServlet {
 		}
 	}
 
+	//Direcionamento para a Lista com todas receitas geradas pelo Médico
 	private void listReceita(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, IOException, ServletException {
 		int crm = Integer.parseInt(request.getParameter("crm"));
@@ -86,7 +87,8 @@ public class ReceitaServlet extends HttpServlet {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/receita-list-med.jsp");
 		dispatcher.forward(request, response);
 	}
-
+	
+	//Direcionamento para a Lista com todas as Receitas por CPF
 	private void listReceitaFarm(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, IOException, ServletException {
 		String cpf = request.getParameter("cpf");
@@ -96,12 +98,14 @@ public class ReceitaServlet extends HttpServlet {
 		dispatcher.forward(request, response);
 	}
 
+	//Direcionamento para a Criação de uma Nova Receita
 	private void showNewForm(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/receita-form-med.jsp");
 		dispatcher.forward(request, response);
 	}
 
+	//Direcionamento 
 	private void showEditForm(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, ServletException, IOException {
 		int id = Integer.parseInt(request.getParameter("id"));
