@@ -1,13 +1,21 @@
 TCC
 
 Ferramentas e Tecnologias Utilizadas:
+
 JSP - 2.2 +
+
 IDE - Eclipse Neon
+
 JDK - 1.8 or later
+
 Apache Tomcat - 8.5
+
 JSTL - 1.2.1
-Servlet API - 2.5
-MySQL - mysql-connector-java-8.0.13.jar
+
+Servlet API - 3.0.1
+
+MySQL - mysql-connector-java-8.0.21.jar
+
 
 
 Banco MYSQL:
