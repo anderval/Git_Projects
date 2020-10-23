@@ -21,8 +21,8 @@ import br.unip.chacara.si.tcc.scrm.model.*;
  */
 public class ReceitaDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/TCC?useSSL=false";
-	private String jdbcUsername = "root";
-	private String jdbcPassword = "I&H31v@L";
+	private String jdbcUsername = "usuario";
+	private String jdbcPassword = "senha";
 
 	private static final String INSERT_RECEITAS_SQL = "INSERT INTO receituario (cpf_paciente, nome_paciente, data_emissao, itens_receita, status_receita, hash, medico_crm) VALUES (?, ?, ?, ?, ?, ?, ?);";
 
